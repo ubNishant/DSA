@@ -12,11 +12,9 @@ public class FrequencyOfEachElement {
         int count[] = new int[max + 1];
         // int countt = 0;
         for (int i = 0; i < arr.length; i++) {
-            // if (arr[i] == arr[i]) {
+
             count[arr[i]]++;
 
-            // }
-            // count[i] = arr[countt];
         }
         for (int i = 0; i < count.length; i++)
             System.out.println("frequency of" + i + " " + "is" + " " + count[i]);
